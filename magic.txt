@@ -1,0 +1,1847 @@
+t1: Random Magic Item Generation
+Minor  Medium	Major	Item
+01-04 01-10 01-10 Armor and shields (Table 7-2) @t2
+05-09 11-20 11-20 Weapons (Table 7-9) @t9
+10-44 21-30 21-25 Potions (Table 7-17) @t17
+45-46 31-40 26-35 Rings (Table 7-18) @t18
+- 41-50 36-45 Rods (Table 7-19) @t19
+47-81 51-65 46-55 Scrolls (Table 7-20) @t20
+- 66-68 56-75 Staffs (Table 7-25) @t25
+82-91 69-83 76-80 Wands (Table 7-26) @t26
+92-100 - - Minor Wondrous items @t27
+- 84-100 - Medium Wondrous items @t28
+- - 81-100 Major Wondrous items @t29
+
+t2: Armor and Shields
+Minor	Medium	Major	Item	Base Price
+01-60 01-05 - +1 shield 1,000 gp @t4
+61-80 06-10 - +1 armor 1,000 gp @t3
+81-85 11-20 - +2 shield 4,000 gp @t4
+86-87 21-30 - +2 armor 4,000 gp @t3
+- 31-40 01-08 +3 shield 9,000 gp @t4
+- 41-50 09-16 +3 armor 9,000 gp @t3
+- 51-55 17-27 +4 shield 16,000 gp @t4
+- 56-57 28-38 +4 armor 16,000 gp @t3
+- - 39-49 +5 shield 25,000 gp @t4
+- - 50-57 +5 armor 25,000 gp @t3
+- - - +6 armor/shield1 36,000 gp
+- - - +7 armor/shield1 49,000 gp
+- - - +8 armor/shield1 64,000 gp
+- - - +9 armor/shield1 81,000 gp
+- - - +10 armor/shield1 100,000 gp
+88-89 58-60 58-60 Specific armor2 @t7
+90-91 61-63 61-63 Specific shield3 @t8
+92-100 64-100 64-100 Special ability and roll again4 @t2 @t5 @t6 "Take the special ability appropriate if it is an armor or a shield"
+
+t3: Random Armor Type
+d%	Armor	Armor Cost
+01 Padded +155 gp
+02 Leather +160 gp
+03-17 Studded leather +175 gp
+18-32 Chain shirt +250 gp
+33-42 Hide +165 gp
+43 Scale mail +200 gp
+44 Chainmail +300 gp
+45-57 Breastplate +350 gp
+58 Splint mail +350 gp
+59 Banded mail +400 gp
+60 Half-plate +750 gp
+61-100 Full plate +1,650 gp
+
+t4: Random Shield Type
+d%	Shield	Shield Cost
+01-10 Buckler +165 gp
+11-15 Shield, light, wooden +153 gp
+16-20 Shield, light, steel +159 gp
+21-30 Shield, heavy, wooden +157 gp
+31-95 Shield, heavy, steel +170 gp
+96-100 Shield, tower +180 gp
+
+t5: Armor Special Abilities
+Minor	Medium	Major	Special Ability	Base Price Modifier
+01-25 01-05 01-03 Glamered +2,700 gp
+26-32 06-08 04 Fortification, light +1 bonus "Add bonuses and check t2 for new base price"
+33-52 09-11 - Slick +3,750 gp
+53-72 12-14 - Shadow +3,750 gp
+73-92 15-17 - Silent moves +3,750 gp
+93-96 18-19 - Spell resistance (13) +2 bonus "Add bonuses and check t2 for new base price"
+97 20-29 05-07 Slick, improved +15,000 gp
+98 30-39 08-10 Shadow, improved +15,000 gp
+99 40-49 11-13 Silent moves, improved +15,000 gp
+- 50-54 14-16 Acid resistance +18,000 gp
+- 55-59 17-19 Cold resistance +18,000 gp
+- 60-64 20-22 Electricity resistance +18,000 gp
+- 65-69 23-25 Fire resistance +18,000 gp
+- 70-74 26-28 Sonic resistance +18,000 gp
+- 75-79 29-33 Ghost touch +3 bonus "Add bonuses and check t2 for new base price"
+- 80-84 34-35 Invulnerability +3 bonus "Add bonuses and check t2 for new base price"
+- 85-89 36-40 Fortification, moderate +3 bonus "Add bonuses and check t2 for new base price"
+- 90-94 41-42 Spell resistance (15) +3 bonus "Add bonuses and check t2 for new base price"
+- 95-99 43 Wild +3 bonus "Add bonuses and check t2 for new base price"
+- - 44-48 Slick, greater +33,750 gp
+- - 49-53 Shadow, greater +33,750 gp
+- - 54-58 Silent moves, greater +33,750 gp
+- - 59-63 Acid resistance, improved +42,000 gp
+- - 64-68 Cold resistance, improved +42,000 gp
+- - 69-73 Electricity resistance, improved +42,000 gp
+- - 74-78 Fire resistance, improved +42,000 gp
+- - 79-83 Sonic resistance, improved +42,000 gp
+- - 84-88 Spell resistance (17) +4 bonus "Add bonuses and check t2 for new base price"
+- - 89 Etherealness +49,000 gp
+- - 90 Undead controlling +49,000 gp
+- - 91-92 Fortification, heavy +5 bonus "Add bonuses and check t2 for new base price"
+- - 93-94 Spell resistance (19) +5 bonus "Add bonuses and check t2 for new base price"
+- - 95 Acid resistance, greater +66,000 gp
+- - 96 Cold resistance, greater +66,000 gp
+- - 97 Electricity resistance, greater +66,000 gp
+- - 98 Fire resistance, greater +66,000 gp
+- - 99 Sonic resistance, greater +66,000 gp
+100 100 100 Roll twice again2 @t5 @t5
+
+t6: Shield Special Abilities
+Minor	Medium	Major	Special Ability	Base Price Modifier
+01-20 01-10 01-05 Arrow catching +1 bonus "Add bonuses and check t2 for new base price"
+21-40 11-20 06-08 Bashing +1 bonus "Add bonuses and check t2 for new base price"
+41-50 21-25 09-10 Blinding +1 bonus "Add bonuses and check t2 for new base price"
+51-75 26-40 11-15 Fortification, light +1 bonus "Add bonuses and check t2 for new base price"
+76-92 41-50 16-20 Arrow deflection +2 bonus "Add bonuses and check t2 for new base price"
+93-97 51-57 21-25 Animated +2 bonus "Add bonuses and check t2 for new base price"
+98-99 58-59 - Spell resistance (13) +2 bonus "Add bonuses and check t2 for new base price"
+- 60-63 26-28 Acid resistance +18,000 gp
+- 64-67 29-31 Cold resistance +18,000 gp
+- 68-71 32-34 Electricity resistance +18,000 gp
+- 72-75 35-37 Fire resistance +18,000 gp
+- 76-79 38-40 Sonic resistance +18,000 gp
+- 80-85 41-46 Ghost touch +3 bonus "Add bonuses and check t2 for new base price"
+- 86-95 47-56 Fortification, moderate +3 bonus "Add bonuses and check t2 for new base price"
+- 96-98 57-58 Spell resistance (15) +3 bonus "Add bonuses and check t2 for new base price"
+- 99 59 Wild +3 bonus "Add bonuses and check t2 for new base price"
+- - 60-64 Acid resistance, improved +42,000 gp
+- - 65-69 Cold resistance, improved +42,000 gp
+- - 70-74 Electricity resistance, improved +42,000 gp
+- - 75-79 Fire resistance, improved +42,000 gp
+- - 80-84 Sonic resistance, improved +42,000 gp
+- - 85-86 Spell resistance (17) +4 bonus "Add bonuses and check t2 for new base price"
+- - 87 Undead controlling +49,000 gp
+- - 88-91 Fortification, heavy +5 bonus "Add bonuses and check t2 for new base price"
+- - 92-93 Reflecting +5 bonus "Add bonuses and check t2 for new base price"
+- - 94 Spell resistance (19) +5 bonus "Add bonuses and check t2 for new base price"
+- - 95 Acid resistance, greater +66,000 gp
+- - 96 Cold resistance, greater +66,000 gp
+- - 97 Electricity resistance, greater +66,000 gp
+- - 98 Fire resistance, greater +66,000 gp
+- - 99 Sonic resistance, greater +66,000 gp
+100 100 100 Roll twice again2 @t6 @t6
+
+t7: Specific Armors
+Minor	Medium	Major	Specific Armor	Market Price
+01-50 01-25 - Mithral shirt 1,100 gp
+51-80 26-45 - Dragonhide plate 3,300 gp
+81-100 46-57 - Elven chain 4,150 gp
+- 58-67 - Rhino hide 5,165 gp
+- 68-82 01-10 Adamantine breastplate 10,200 gp
+- 83-97 11-20 Dwarven plate 16,500 gp
+- 98-100 21-32 Banded mail of luck 18,900 gp
+- - 33-50 Celestial armor 22,400 gp
+- - 51-60 Plate armor of the deep 24,650 gp
+- - 61-75 Breastplate of command 25,400 gp
+- - 76-90 Mithral full plate of speed 26,500 gp
+- - 91-100 Demon armor 52,260 gp
+
+t8: Specific Shields
+Minor	Medium	Major	Specific Shield	Market Price
+01-30 01-20 - Darkwood buckler 205 gp
+31-80 21-45 - Darkwood shield 257 gp
+81-95 46-70 - Mithral heavy shield 1,020 gp
+96-100 71-85 01-20 Caster’s shield 3,153 gp
+- 86-90 21-40 Spined shield 5,580 gp
+- 91-95 41-60 Lion’s shield 9,170 gp
+- 96-100 61-90 Winged shield 17,257 gp
+- - 91-100 Absorbing shield 50,170 gp
+
+t9: Weapons
+Minor	Medium	Major	Weapon Bonus	Base Price
+01-70 01-10 - +1 2,000 gp @t10
+71-85 11-29 - +2 8,000 gp @t10
+- 30-58 01-20 +3 18,000 gp @t10
+- 59-62 21-38 +4 32,000 gp @t10
+- - 39-49 +5 50,000 gp @t10
+- - - +62 72,000 gp @t10
+- - - +72 98,000 gp @t10
+- - - +82 128,000 gp @t10
+- - - +92 162,000 gp @t10
+- - - +102 200,000 gp @t10
+86-90 63-68 50-63 Specific weapon @t16
+91-100 69-100 64-100 Special ability and roll again @t9 @t10a
+
+t10: Weapon Type Determination
+d%	Weapon Type
+01-70 Common melee weapon @t11
+71-80 Uncommon weapon @t12
+81-100 Common ranged weapon @t13
+
+t10a: Weapon Type with Special Abilities
+d%	Weapon Type
+01-70 Common melee weapon @t11 @t14
+71-80 Uncommon weapon @t12 @14
+81-100 Common ranged weapon @t13 @t15
+
+t11: Common Melee Weapons
+d%	Weapon	Weapon Cost
+01-04 Dagger +302 gp
+05-14 Greataxe +320 gp
+15-24 Greatsword +350 gp
+25-28 Kama +302 gp
+29-41 Longsword +315 gp
+42-45 Mace, light +305 gp
+46-50 Mace, heavy +312 gp
+51-54 Nunchaku +302 gp
+55-57 Quarterstaff2 +600 gp "Masterwork double weapons incur double the masterwork cost to account for each head (+300 gp masterwork cost per head for a total of +600 gp). Double weapons have separate magical bonuses for their different heads. If randomly determined, the second head of a double weapon has the same enhancement bonus as the main head (01-50 on d%), doubling the cost of the bonus, or its enhancement bonus is one less (51-100 on d%) and it has no special abilities."
+58-61 Rapier +320 gp
+62-66 Scimitar +315 gp
+67-70 Shortspear +302 gp
+71-74 Siangham +303 gp
+75-84 Sword, bastard +335 gp
+85-89 Sword, short +310 gp
+90-100 Waraxe, dwarven +330 gp
+
+t12: Uncommon Melee Weapons
+d%	Weapon	Weapon Cost
+01-03 Axe, orc double2 +660 gp "Masterwork double weapons incur double the masterwork cost to account for each head (+300 gp masterwork cost per head for a total of +600 gp). Double weapons have separate magical bonuses for their different heads. If randomly determined, the second head of a double weapon has the same enhancement bonus as the main head (01-50 on d%), doubling the cost of the bonus, or its enhancement bonus is one less (51-100 on d%) and it has no special abilities."
+04-07 Battleaxe +310 gp
+08-10 Chain, spiked +325 gp
+11-12 Club +300 gp
+13-16 Crossbow, hand +400 gp
+17-19 Crossbow, repeating +550 gp
+20-21 Dagger, punching +302 gp
+22-23 Falchion +375 gp
+24-26 Flail, dire2 +690 gp "Masterwork double weapons incur double the masterwork cost to account for each head (+300 gp masterwork cost per head for a total of +600 gp). Double weapons have separate magical bonuses for their different heads. If randomly determined, the second head of a double weapon has the same enhancement bonus as the main head (01-50 on d%), doubling the cost of the bonus, or its enhancement bonus is one less (51-100 on d%) and it has no special abilities."
+27-31 Flail, heavy +315 gp
+32-35 Flail, light +308 gp
+36-37 Gauntlet +302 gp
+38-39 Gauntlet, spiked +305 gp
+40-41 Glaive +308 gp
+42-43 Greatclub +305 gp
+44-45 Guisarme +309 gp
+46-48 Halberd +310 gp
+49-51 Halfspear +301 gp
+52-54 Hammer, gnome hooked2 +620 gp "Masterwork double weapons incur double the masterwork cost to account for each head (+300 gp masterwork cost per head for a total of +600 gp). Double weapons have separate magical bonuses for their different heads. If randomly determined, the second head of a double weapon has the same enhancement bonus as the main head (01-50 on d%), doubling the cost of the bonus, or its enhancement bonus is one less (51-100 on d%) and it has no special abilities."
+55-56 Hammer, light +301 gp
+57-58 Handaxe +306 gp
+59-61 Kukri +308 gp
+62-64 Lance +310 gp
+65-67 Longspear +305 gp
+68-70 Morningstar +308 gp
+71-72 Net +320 gp
+73-74 Pick, heavy +308 gp
+75-76 Pick, light +304 gp
+77-78 Ranseur +310 gp
+79-80 Sap +301 gp
+81-82 Scythe +318 gp
+83-84 Shuriken +301 gp
+85-86 Sickle +306 gp
+87-89 Sword, two-bladed2 +700 gp "Masterwork double weapons incur double the masterwork cost to account for each head (+300 gp masterwork cost per head for a total of +600 gp). Double weapons have separate magical bonuses for their different heads. If randomly determined, the second head of a double weapon has the same enhancement bonus as the main head (01-50 on d%), doubling the cost of the bonus, or its enhancement bonus is one less (51-100 on d%) and it has no special abilities."
+90-91 Trident +315 gp
+92-94 Urgrosh, dwarven2 +650 gp "Masterwork double weapons incur double the masterwork cost to account for each head (+300 gp masterwork cost per head for a total of +600 gp). Double weapons have separate magical bonuses for their different heads. If randomly determined, the second head of a double weapon has the same enhancement bonus as the main head (01-50 on d%), doubling the cost of the bonus, or its enhancement bonus is one less (51-100 on d%) and it has no special abilities."
+95-97 Warhammer +312 gp
+98-100 Whip +301 gp
+
+t13: Common Ranged Weapons
+d%	Weapon	Weapon Cost
+01-05 Arrows (50) +350 gp
+06-08 Bolts, crossbow (50) +350 gp
+09-10 Bullets, sling (50) +350 gp
+11-15 Axe, throwing +308 gp
+16-25 Crossbow, heavy +350 gp
+26-35 Crossbow, light +335 gp
+36-39 Dart +300 gp 5 sp
+40-41 Javelin +301 gp
+42-46 Shortbow +330 gp
+47-51 Shortbow, composite (+0 Str bonus) +375 gp
+52-56 Shortbow, composite (+1 Str bonus) +450 gp
+57-61 Shortbow, composite (+2 Str bonus) +525 gp
+62-65 Sling +300 gp
+66-75 Longbow +375 gp
+76-80 Longbow, composite +400 gp
+81-85 Longbow, composite (+1 Str bonus) +500 gp
+86-90 Longbow, composite (+2 Str bonus) +600 gp
+91-95 Longbow, composite (+3 Str bonus) +700 gp
+96-100 Longbow, composite (+4 Str bonus) +800 gp
+
+t14: Melee Weapon Special Abilities "Add bonus to t9 for total market price"
+Minor	Medium	Major	Special Ability	Base Price Modifier
+01-10 01-06 01-03 Bane +1 bonus @t14a
+11-17 07-12 - Defending +1 bonus
+18-27 13-19 04-06 Flaming +1 bonus
+28-37 20-26 07-09 Frost +1 bonus
+38-47 27-33 10-12 Shock +1 bonus
+48-56 34-38 13-15 Ghost touch +1 bonus
+57-67 39-44 - Keen2 +1 bonus
+68-71 45-48 16-19 Ki Focus +1 bonus
+72-75 49-50 - Merciful +1 bonus
+76-82 51-54 20-21 Mighty cleaving +1 bonus
+83-87 55-59 22-24 Spell storing +1 bonus
+88-91 60-63 25-28 Throwing +1 bonus
+92-95 64-65 29-32 Thundering +1 bonus
+96-99 66-69 33-36 Vicious +1 bonus
+- 70-72 37-41 Anarchic +2 bonus
+- 73-75 42-46 Axiomatic +2 bonus
+- 76-78 47-49 Disruption3 +2 bonus
+- 79-81 50-54 Flaming burst +2 bonus
+- 82-84 55-59 Icy burst +2 bonus
+- 85-87 60-64 Holy +2 bonus
+- 88-90 65-69 Shocking burst +2 bonus
+- 91-93 70-74 Unholy +2 bonus
+- 94-95 75-78 Wounding +2 bonus
+- - 79-83 Speed +3 bonus
+- - 84-86 Brilliant energy +4 bonus
+- - 87-88 Dancing +4 bonus
+- - 89-90 Vorpal2 +5 bonus
+100 96-100 91-100 Roll again twice4 @t14 @t14
+
+t14a: Designated Enemy for Bane
+d%	Designated Enemy
+01-05 Aberrations
+06-09 Animals
+10-16 Constructs
+17-22 Dragons
+23-27 Elementals
+28-32 Fey
+33-39 Giants
+40 Humanoids, aquatic
+41-42 Humanoids, dwarf
+43-44 Humanoids, elf
+45 Humanoids, gnoll
+46 Humanoids, gnome
+47-49 Humanoids, goblinoid
+50 Humanoids, halfling
+51-54 Humanoids, human
+55-57 Humanoids, reptilian
+58-60 Humanoids, orc
+61-65 Magical beasts
+66-70 Monstrous humanoids
+71-72 Oozes
+73 Outsiders, air
+74-76 Outsiders, chaotic
+77 Outsiders, earth
+78-80 Outsiders, evil
+81 Outsiders, fire
+82-84 Outsiders, good
+85-87 Outsiders, lawful
+88 Outsiders, water
+89-90 Plants
+91-98 Undead
+99-100 Vermin
+
+t15: Ranged Weapon Special Abilities "Add bonus to table t9 to determine total price"
+Minor	Medium	Major	Special Ability	Base Price Modifier
+01-12 01-08 01-04 Bane +1 bonus
+13-25 09-16 05-08 Distance +1 bonus
+26-40 17-28 09-12 Flaming +1 bonus
+41-55 29-40 13-16 Frost +1 bonus
+56-60 41-42 - Merciful +1 bonus
+61-68 43-47 17-21 Returning +1 bonus
+69-83 48-59 22-25 Shock +1 bonus
+84-93 60-64 26-27 Seeking +1 bonus
+94-99 65-68 28-29 Thundering +1 bonus
+- 69-71 30-34 Anarchic +2 bonus
+- 72-74 35-39 Axiomatic +2 bonus
+- 75-79 40-49 Flaming burst +2 bonus
+- 80-82 50-54 Holy +2 bonus
+- 83-87 55-64 Icy burst +2 bonus
+- 88-92 65-74 Shocking burst +2 bonus
+- 93-95 75-79 Unholy +2 bonus
+- - 80-84 Speed +3 bonus
+- - 85-90 Brilliant energy +4 bonus
+100 96-100 91-100 Roll again twice2 @t15 @t15
+
+t16: Specific Weapons
+Minor	Medium	Major	Specific Weapon	Market Price
+01-15 - - Sleep arrow 132 gp
+16-25 - - Screaming bolt 267 gp
+26-45 - - Silver dagger, masterwork 322 gp
+46-65 - - Cold iron longsword, masterwork 330 gp
+66-75 01-09 - Javelin of lightning 1,500 gp
+76-80 10-15 - Slaying arrow 2,282 gp
+81-90 16-24 - Adamantine dagger 3,002 gp
+91-100 25-33 - Adamantine battleaxe 3,010 gp
+- 34-37 - Slaying arrow (greater) 4,057 gp
+- 38-40 - Shatterspike 4,315 gp
+- 41-46 - Dagger of venom 8,302 gp
+- 47-51 - Trident of warning 10,115 gp
+- 52-57 01-04 Assassin’s dagger 10,302 gp
+- 58-62 05-07 Shifter’s sorrow 12,780 gp
+- 63-66 08-09 Trident of fish command 18,650 gp
+- 67-74 10-13 Flame tongue 20,715 gp
+- 75-79 14-17 Luck blade (0 wishes) 22,060 gp
+- 80-86 18-24 Sword of subtlety 22,310 gp
+- 87-91 25-31 Sword of the planes 22,315 gp
+- 92-95 32-37 Nine lives stealer 23,057 gp
+- 96-98 38-42 Sword of life stealing 25,715 gp
+- 99-100 43-46 Oathbow 25,600 gp
+- - 47-51 Mace of terror 38,552 gp
+- - 52-57 Life-drinker 40,320 gp
+- - 58-62 Sylvan scimitar 47,315 gp
+- - 63-67 Rapier of puncturing 50,320 gp
+- - 68-73 Sun blade 50,335 gp
+- - 74-79 Frost brand 54,475 gp
+- - 80-84 Dwarven thrower 60,312 gp
+- - 85-91 Luck blade (1 wish) 62,360 gp
+- - 92-95 Mace of smiting 75,312 gp
+- - 96-97 Luck blade (2 wishes) 102,660 gp
+- - 98-99 Holy avenger 120,630 gp
+- - 100 Luck blade (3 wishes) 142,960 gp
+
+t17: Potions and Oils
+Minor	Medium	Major	Potion or Oil	Market Price
+01-10 - - Cure light wounds (potion) 50 gp
+11-13 - - Endure elements (potion) 50 gp
+14-15 - - Hide from animals (potion) 50 gp
+16-17 - - Hide from undead (potion) 50 gp
+18-19 - - Jump (potion) 50 gp
+20-22 - - Mage armor (potion) 50 gp
+23-25 - - Magic fang (potion) 50 gp
+26 - - Magic stone (oil) 50 gp
+27-29 - - Magic weapon (oil) 50 gp
+30 - - Pass without trace (potion) 50 gp
+31-32 - - Protection from (alignment) (potion) 50 gp
+33-34 - - Remove fear (potion) 50 gp
+35 - - Sanctuary (potion) 50 gp
+36-38 - - Shield of faith +2 (potion) 50 gp
+39 - - Shillelagh (oil) 50 gp
+40-41 01-02 - Bless weapon (oil) 100 gp
+42-44 03-04 - Enlarge person (potion) 250 gp
+45 05 - Reduce person (potion) 250 gp
+46-47 06 - Aid (potion) 300 gp
+48-50 07 - Barkskin +2 (potion) 300 gp
+51-53 08-10 - Bear’s endurance (potion) 300 gp
+54-56 11-13 01-02 Blur (potion) 300 gp
+57-59 14-16 - Bull’s strength (potion) 300 gp
+60-62 17-19 - Cat’s grace (potion) 300 gp
+63-67 20-27 03-07 Cure moderate wounds (potion) 300 gp
+68 28 - Darkness (oil) 300 gp
+69-71 29-30 08-09 Darkvision (potion) 300 gp
+72-74 31 - Delay poison (potion) 300 gp
+75-76 32-33 - Eagle’s splendor (potion) 300 gp
+77-78 34-35 - Fox’s cunning (potion) 300 gp
+79-81 36-37 10-11 Invisibility (potion or oil) 300 gp
+82-84 38 12 Lesser restoration (potion) 300 gp
+85-86 39 - Levitate (potion or oil) 300 gp
+87 40 - Misdirection (potion) 300 gp
+88-89 41-42 - Owl’s wisdom (potion) 300 gp
+90-91 43 - Protection from arrows 300 gp 10/magic (potion)
+92-93 44 13 Remove paralysis (potion) 300 gp
+94-96 45-46 - Resist energy (type) 10 (potion) 300 gp
+97 47-48 14 Shield of faith +3 (potion) 300 gp
+98-99 49 - Spider climb (potion) 300 gp
+100 50 15 Undetectable alignment (potion) 300 gp
+- 51 16 Barkskin +3 (potion) 600 gp
+- 52 17-18 Shield of faith +4 (potion) 600 gp
+- 53-55 19-20 Resist energy (type) 20 (potion) 700 gp
+- 56-60 21-28 Cure serious wounds (potion) 750 gp
+- 61 29 Daylight (oil) 750 gp
+- 62-64 30-32 Displacement (potion) 750 gp
+- 65 33 Flame arrow (oil) 750 gp
+- 66-68 34-38 Fly (potion) 750 gp
+- 69 39 Gaseous form (potion) 750 gp
+- 70-71 - Greater magic fang +1 (potion) 750 gp
+- 72-73 - Greater magic weapon +1 (oil) 750 gp
+- 74-75 40-41 Haste (potion) 750 gp
+- 76-78 42-44 Heroism (potion) 750 gp
+- 79-80 45-46 Keen edge (oil) 750 gp
+- 81 47 Magic circle against (alignment) 750 gp (potion)
+- 82-83 - Magic vestment +1 (oil) 750 gp
+- 84-86 48-50 Neutralize poison (potion) 750 gp
+- 87-88 51-52 Nondetection (potion) 750 gp
+- 89-91 53-54 Protection from energy (type) 750 gp (potion)
+- 92-93 55 Rage (potion) 750 gp
+- 94 56 Remove blindness/deafness 750 gp (potion)
+- 95 57 Remove curse (potion) 750 gp
+- 96 58 Remove disease (potion) 750 gp
+- 97 59 Tongues (potion) 750 gp
+- 98-99 60 Water breathing (potion) 750 gp
+- 100 61 Water walk (potion) 750 gp
+- - 62-63 Barkskin +4 (potion) 900 gp
+- - 64 Shield of faith +5 (potion) 900 gp
+- - 65 Good hope (potion) 1,050 gp
+- - 66-68 Resist energy (type) 30 (potion) 1,100 gp
+- - 69 Barkskin +5 (potion) 1,200 gp
+- - 70-73 Greater magic fang +2 (potion) 1,200 gp
+- - 74-77 Greater magic weapon +2 (oil) 1,200 gp
+- - 78-81 Magic vestment +2 (oil) 1,200 gp
+- - 82 Protection from arrows 1,500 gp 15/magic (potion)
+- - 83-85 Greater magic fang +3 (potion) 1,800 gp
+- - 86-88 Greater magic weapon +3 (oil) 1,800 gp
+- - 89-91 Magic vestment +3 (oil) 1,800 gp
+- - 92-93 Greater magic fang +4 (potion) 2,400 gp
+- - 94-95 Greater magic weapon +4 (oil) 2,400 gp
+- - 96-97 Magic vestment +4 (oil) 2,400 gp
+- - 98 Greater magic fang +5 (potion) 3,000 gp
+- - 99 Greater magic weapon +5 (oil) 3,000 gp
+- - 100 Magic vestment +5 (oil) 3,000 gp
+
+t18: Rings
+Minor	Medium	Major	Ring	Market Price
+01-18 - - Protection +1 2,000 gp
+19-28 - - Feather falling 2,200 gp
+29-36 - - Sustenance 2,500 gp
+37-44 - - Climbing 2,500 gp
+45-52 - - Jumping 2,500 gp
+53-60 - - Swimming 2,500 gp
+61-70 01-05 - Counterspells 4,000 gp
+71-75 06-08 - Mind shielding 8,000 gp
+76-80 09-18 - Protection +2 8,000 gp
+81-85 19-23 - Force shield 8,500 gp
+86-90 24-28 - Ram 8,600 gp
+- 29-34 - Climbing, improved 10,000 gp
+- 35-40 - Jumping, improved 10,000 gp
+- 41-46 - Swimming, improved 10,000 gp
+91-93 47-51 - Animal friendship 10,800 gp
+94-96 50-56 01-02 Energy resistance, minor 12,000 gp
+97-98 57-61 - Chameleon power 12,700 gp
+99-100 62-66 - Water walking 15,000 gp
+- 67-71 03-07 Protection +3 18,000 gp
+- 72-76 08-10 Spell storing, minor 18,000 gp
+- 77-81 11-15 Invisibility 20,000 gp
+- 82-85 16-19 Wizardry (I) 20,000 gp
+- 86-90 20-25 Evasion 25,000 gp
+- 91-93 26-28 X-ray vision 25,000 gp
+- 94-97 29-32 Blinking 27,000 gp
+- 98-100 33-39 Energy resistance, major 28,000 gp
+- - 40-49 Protection +4 32,000 gp
+- - 50-55 Wizardry (II) 40,000 gp
+- - 56-60 Freedom of movement 40,000 gp
+- - 61-63 Energy resistance, greater 44,000 gp
+- - 64-65 Friend shield (pair) 50,000 gp
+- - 66-70 Protection +5 50,000 gp
+- - 71-74 Shooting stars 50,000 gp
+- - 75-79 Spell storing 50,000 gp
+- - 80-83 Wizardry (III) 70,000 gp
+- - 84-86 Telekinesis 75,000 gp
+- - 87-88 Regeneration 90,000 gp
+- - 89 Three wishes 97,950 gp
+- - 90-92 Spell turning 98,280 gp
+- - 93-94 Wizardry (IV) 100,000 gp
+- - 95 Djinni calling 125,000 gp
+- - 96 Elemental command (air) 200,000 gp
+- - 97 Elemental command (earth) 200,000 gp
+- - 98 Elemental command (fire) 200,000 gp
+- - 99 Elemental command (water) 200,000 gp
+- - 100 Spell storing, major 200,000 gp
+
+t19: Rods
+Medium	Major	Rod	Market Price
+01-07 - Metamagic, Enlarge, lesser 3,000 gp
+08-14 - Metamagic, Extend, lesser 3,000 gp
+15-21 - Metamagic, Silent, lesser 3,000 gp
+22-28 - Immovable 5,000 gp
+29-35 - Metamagic, Empower, lesser 9,000 gp
+36-42 - Metal and mineral detection 10,500 gp
+43-53 01-04 Cancellation 11,000 gp
+54-57 05-06 Metamagic, Enlarge 11,000 gp
+58-61 07-08 Metamagic, Extend 11,000 gp
+62-65 09-10 Metamagic, Silent 11,000 gp
+66-71 11-14 Wonder 12,000 gp @t19a
+72-79 15-18 Python 13,000 gp
+80-83 - Metamagic, Maximize, lesser 14,000 gp
+84-89 19-21 Flame extinguishing 15,000 gp
+90-97 22-25 Viper 19,000 gp
+- 26-30 Enemy detection 23,500 gp
+- 31-36 Metamagic, Enlarge, greater 24,500 gp
+- 37-42 Metamagic, Extend, greater 24,500 gp
+- 43-48 Metamagic, Silent, greater 24,500 gp
+- 49-53 Splendor 25,000 gp
+- 54-58 Withering 25,000 gp
+98-99 59-64 Metamagic, Empower 32,500 gp
+- 65-69 Thunder and lightning 33,000 gp
+100 70-73 Metamagic, Quicken, lesser 35,000 gp
+- 74-77 Negation 37,000 gp
+- 78-80 Absorption 50,000 gp
+- 81-84 Flailing 50,000 gp
+- 85-86 Metamagic, Maximize 54,000 gp
+- 87-88 Rulership 60,000 gp
+- 89-90 Security 61,000 gp
+- 91-92 Lordly might 70,000 gp
+- 93-94 Metamagic, Empower, greater 73,000 gp
+- 95-96 Metamagic, Quicken 75,500 gp
+- 97-98 Alertness 85,000 gp
+- 99 Metamagic, Maximize, greater 121,500 gp
+- 100 Metamagic, Quicken, greater 170,000 gp
+
+t19a: Wonderous Rods
+d%	Wonderous Effect
+01-05 Slow creature pointed at for 10 rounds (Will DC 15 negates).
+06-10 Faerie fire surrounds the target.
+11-15 Deludes wielder for 1 round into believing the rod functions as indicated by a second die roll (no save).
+16-20 Gust of wind, but at windstorm force; see Winds, page 95 (Fortitude DC 14 negates).
+21-25 Wielder learns target’s surface thoughts (as with detect thoughts) for 1d4 rounds (no save).
+26-30 Stinking cloud at 30-ft. range (Fortitude DC 15 negates).
+31-33 Heavy rain falls for 1 round in 60-ft. radius centered on rod wielder.
+34-36 Summon an animal-a rhino (01-25 on d%), elephant (26-50), or mouse (51-100).
+37-46 Lightning bolt (70 ft. long, 5 ft. wide), 6d6 damage (Reflex DC 15 half).
+47-49 Stream of 600 large butterflies pours forth and flutters around for 2 rounds, blinding everyone (including wielder) within 25 ft. (Reflex DC 14 negates).
+50-53 Enlarge person if within 60 ft. of rod (Fortitude DC 13 negates).
+54-58 Darkness, 30-ft.-diameter hemisphere, centered 30 ft. away from rod.
+59-62 Grass grows in 160-sq.-ft. area before the rod, or grass existing there grows to ten times normal size.
+63-65 Turn ethereal any nonliving object of up to 1,000 lb. mass and up to 30 cu. ft. in size.
+66-69 Reduce wielder to 1/12 height (no save).
+70-79 Fireball at target or 100 ft. straight ahead, 6d6 damage (Reflex DC 15 half).
+80-84 Invisibility covers rod wielder.
+85-87 Leaves grow from target if within 60 ft. of rod. These last 24 hours.
+88-90 10-40 gems, value 1 gp each, shoot forth in a 30-ft.-long stream. Each gem deals 1 point of damage to any creature in its path: Roll 5d4 for the number of hits and divide them among the available targets.
+91-95 Shimmering colors dance and play over a 40-ft.-by-30-ft. area in front of rod. Creatures therein are blinded for 1d6 rounds (Fortitude DC 15 negates).
+96-97 Wielder (50% chance) or target (50% chance) turns permanently blue, green, or purple (no save).
+98-100 Flesh to stone (or stone to flesh if target is stone already) if target is within 60 ft. (Fortitude DC 18 negates).
+
+t20: Scroll Type "Roll t22 the appropriate number of times"
+Minor	Medium	Major	Spell Type	Number of Spells
+01-23 01-17 01-11 Arcane, 1 Spell @t22a
+24-46 18-35 12-23 Arcane, 2 Spells @t22a @t22a
+47-70 36-52 24-35 Arcane, 3 Spells @t22a @t22a @t22a
+- 53-70 36-47 Arcane, 4 Spells @t22a @t22a @t22a @t22a
+- - 48-59 Arcane, 5 Spells @t22a @t22a @t22a @t22a @t22a
+- - 60-70 Arcane, 6 Spells @t22a @t22a @t22a @t22a @t22a @t22a
+71-80 71-77 71-75 Divine, 1 Spell @t22b
+81-90 78-85 76-80 Divine, 2 Spells @t22b @t22b
+91-100 86-92 81-85 Divine, 3 Spells @t22b @t22b @t22b
+- 93-100 86-90 Divine, 4 Spells @t22b @t22b @t22b @t22b
+- - 91-95 Divine, 5 Spells @t22b @t22b @t22b @t22b @t22b
+- - 96-100 Divine, 6 Spells @t22b @t22b @t22b @t22b @t22b @t22b
+
+t22a: Scroll Spell Levels
+Minor	Medium	Major	Spell Scroll Level	Spell's Caster Level
+01-05 - - 0 1st @t23a
+06-50 - - 1st 1st @t23b
+51-95 01-05 - 2nd 3rd @t23c
+96-100 06-65 - 3rd 5th @t23d
+- 66-95 01-05 4th 7th @t23e
+- 96-100 06-50 5th 9th @t23f
+- - 51-70 6th 11th @t23g
+- - 71-85 7th 13th @t23h
+- - 86-95 8th 15th @t23i
+- - 95-100 9th 17th @t23j
+
+t22b: Scroll Spell Levels
+Minor	Medium	Major	Spell Scroll Level	Spell's Caster Level
+01-05 - - 0 1st @t24a
+06-50 - - 1st 1st @t24b
+51-95 01-05 - 2nd 3rd @t24c
+96-100 06-65 - 3rd 5th @t24d
+- 66-95 01-05 4th 7th @t24e
+- 96-100 06-50 5th 9th @t24f
+- - 51-70 6th 11th @t24g
+- - 71-85 7th 13th @t24h
+- - 86-95 8th 15th @t24i
+- - 95-100 9th 17th @t24j
+
+t23a: 0-lvl Arcane Spell Scrolls
+d%	Spell	Market Price
+01-04 acid splash 12 gp 5 sp
+05-08 arcane mark 12 gp 5 sp
+09-13 dancing lights 12 gp 5 sp
+14-17 daze 12 gp 5 sp
+18-24 detect magic 12 gp 5 sp
+25-28 detect poison 12 gp 5 sp
+29-32 disrupt undead 12 gp 5 sp
+33-37 flare 12 gp 5 sp
+38-42 ghost sound 12 gp 5 sp
+43-44 know direction 12 gp 5 sp
+45-50 light 12 gp 5 sp
+51-52 lullaby 12 gp 5 sp
+53-57 mage hand 12 gp 5 sp
+58-62 mending 12 gp 5 sp
+63-67 message 12 gp 5 sp
+68-72 open/close 12 gp 5 sp
+73-77 prestidigitation 12 gp 5 sp
+78-81 ray of frost 12 gp 5 sp
+82-87 read magic 12 gp 5 sp
+88-94 resistance 12 gp 5 sp
+95-96 summon instrument 12 gp 5 sp
+97-100 touch of fatigue 12 gp 5 sp
+
+t23b: 1-lvl Arcane Spell Scrolls
+d%	Spell	Market Price
+01-03 alarm 25 gp
+04-05 animate rope 25 gp
+06-07 burning hands 25 gp
+08-09 cause fear 25 gp
+10-12 charm person 25 gp
+13-14 chill touch 25 gp
+15-16 color spray 25 gp
+17-19 comprehend languages 25 gp
+20 confusion, lesser 50 gp
+21 cure light wounds 50 gp
+22-24 detect secret doors 25 gp
+25-26 detect undead 25 gp
+27-29 disguise self 25 gp
+30-32 endure elements 25 gp
+33-35 enlarge person 25 gp
+36-37 erase 25 gp
+38-40 expeditious retreat 25 gp
+41 feather fall 25 gp
+42-43 grease 25 gp
+44-45 hold portal 25 gp
+46-47 hypnotism 25 gp
+48-49 identify 125 gp
+50-51 jump 25 gp
+52-54 mage armor 25 gp
+55-56 magic missile 25 gp
+57-59 magic weapon 25 gp
+60-62 mount 25 gp
+63-64 Nystul’s magic aura 25 gp
+65-66 obscuring mist 25 gp
+67-74 protection from chaos/evil/good/law 25 gp
+75-76 ray of enfeeblement 25 gp
+77-78 reduce person 25 gp
+79-80 remove fear 50 gp
+81-82 shield 25 gp
+83-84 shocking grasp 25 gp
+85-86 silent image 25 gp
+87-88 sleep 25 gp
+89-90 summon monster I 25 gp
+91-93 Tenser’s floating disk 25 gp
+94-95 true strike 25 gp
+96 undetectable alignment 50 gp
+97-98 unseen servant 25 gp
+99-100 ventriloquism 25 gp
+
+t23c: 2-lvl Arcane Spell Scrolls
+d%	Spell	Market Price
+01 animal messenger 200 gp
+02 animal trance 200 gp
+03 arcane lock 175 gp
+04-06 bear’s endurance 150 gp
+07-08 blindness/deafness 150 gp
+09-10 blur 150 gp
+11-13 bull’s strength 150 gp
+14 calm emotions 200 gp
+15-17 cat’s grace 150 gp
+18-19 command undead 150 gp
+20 continual flame 200 gp
+21 cure moderate wounds 200 gp
+22 darkness 150 gp
+23-25 darkvision 150 gp
+26 daze monster 150 gp
+27 delay poison 200 gp
+28-29 detect thoughts 150 gp
+30-31 disguise self 150 gp
+32-34 eagle’s splendor 150 gp
+35 enthrall 200 gp
+36-37 false life 150 gp
+38-39 flaming sphere 150 gp
+40 fog cloud 150 gp
+41-43 fox’s cunning 150 gp
+44 ghoul touch 150 gp
+45-46 glitterdust 150 gp
+47 gust of wind 150 gp
+48-49 hypnotic pattern 150 gp
+50-52 invisibility 150 gp
+53-55 knock 150 gp
+56 Leomund’s trap 200 gp
+57-58 levitate 150 gp
+59 locate object 150 gp
+60 magic mouth 160 gp
+61-62 Melf’s acid arrow 150 gp
+63 minor image 150 gp
+64-65 mirror image 150 gp
+66 misdirection 150 gp
+67 obscure object 150 gp
+68-70 owl’s wisdom 150 gp
+71-73 protection from arrows 150 gp
+74-75 pyrotechnics 150 gp
+76-78 resist energy 150 gp
+79 rope trick 150 gp
+80 scare 150 gp
+81-82 scorching ray 150 gp
+83-85 see invisibility 150 gp
+86 shatter 150 gp
+87 silence 200 gp
+88 sound burst 200 gp
+89 spectral hand 150 gp
+90-91 spider climb 150 gp
+92-93 summon monster II 150 gp
+94-95 summon swarm 150 gp
+96 Tasha’s hideous laughter 150 gp
+97 touch of idiocy 150 gp
+98-99 web 150 gp
+100 whispering wind 150 gp
+
+t23d: 3-lvl Arcane Spell Scrolls
+d%	Spell	Market Price
+01-02 arcane sight 375 gp
+03-04 blink 375 gp
+05-06 clairaudience/clairvoyance 375 gp
+07 cure serious wounds 525 gp
+08-10 daylight 525 gp
+11-12 deep slumber 375 gp
+13-15 dispel magic 375 gp
+16-17 displacement 375 gp
+18 explosive runes 375 gp
+19-20 fireball 375 gp
+21-22 flame arrow 375 gp
+23-25 fly 375 gp
+26-27 gaseous form 375 gp
+28-29 gentle repose 375 gp
+30 glibness 525 gp
+31 good hope 525 gp
+32-33 halt undead 375 gp
+34-36 haste 375 gp
+37-38 heroism 375 gp
+39-40 hold person 375 gp
+41 illusory script 425 gp
+42-44 invisibility sphere 375 gp
+45-47 keen edge 375 gp
+48-49 Leomund’s tiny hut 375 gp
+50-51 lightning bolt 375 gp
+52-59 magic circle against chaos/evil/good/law 375 gp
+60-62 magic weapon, greater 375 gp
+63-64 major image 375 gp
+65-66 nondetection 425 gp
+67-68 phantom steed 375 gp
+69-71 protection from energy 375 gp
+72-73 rage 375 gp
+74-75 ray of exhaustion 375 gp
+76 sculpt sound 525 gp
+77 secret page 375 gp
+78 sepia snake sigil 875 gp
+79 shrink item 375 gp
+80-81 sleet storm 375 gp
+82-83 slow 375 gp
+84 speak with animals 525 gp
+85-86 stinking cloud 375 gp
+87-88 suggestion 375 gp
+89-90 summon monster III 375 gp
+91-93 tongues 375 gp
+94-95 vampiric touch 375 gp
+96-98 water breathing 375 gp
+99-100 wind wall 375 gp
+
+t23e: 4-lvl Arcane Spell Scrolls
+d%	Spell	Market Price
+01-02 animate dead 1,050 gp
+03-05 arcane eye 700 gp
+06-07 bestow curse 700 gp
+08-10 charm monster 700 gp
+11-13 confusion 700 gp
+14-15 contagion 700 gp
+16-17 crushing despair 700 gp
+18 cure critical wounds 1,000 gp
+19 detect scrying 700 gp
+20-23 dimension door 700 gp
+24-26 dimensional anchor 700 gp
+27-28 enervation 700 gp
+29-30 enlarge person, mass 700 gp
+31-32 Evard’s black tentacles 700 gp
+33-34 fear 700 gp
+35-37 fire shield 700 gp
+38-39 fire trap 725 gp
+40-42 freedom of movement 1,000 gp
+43 geas, lesser 700 gp
+44-46 globe of invulnerability,lesser 700 gp
+47-48 hallucinatory terrain 700 gp
+49-50 ice storm 700 gp
+51-52 illusory wall 700 gp
+53-55 invisibility, greater 700 gp
+56-57 Leomund’s secure shelter 700 gp
+58 locate creature 700 gp
+59-60 minor creation 700 gp
+61 modify memory 1,000 gp
+62 neutralize poison 1,000 gp
+63-64 Otiluke’s resilient sphere 700 gp
+65-66 phantasmal killer 700 gp
+67-68 polymorph 700 gp
+69-70 rainbow pattern 700 gp
+71 Rary’s mnemonic enhancer 700 gp
+72-73 reduce person, mass 700 gp
+74-76 remove curse 700 gp
+77 repel vermin 1,000 gp
+78-79 scrying 700 gp
+80-81 shadow conjuration 700 gp
+82-83 shout 700 gp
+84-85 solid fog 700 gp
+86 speak with plants 1,000 gp
+87-88 stone shape 700 gp
+89-91 stoneskin 950 gp
+92-93 summon monster IV 700 gp
+94-96 wall of fire 700 gp
+97-99 wall of ice 700 gp
+100 zone of silence 1,000 gp
+
+t23f: 5-lvl Arcane Spell Scrolls
+d%	Spell	Market Price
+01-02 animal growth 1,125 gp
+03-05 baleful polymorph 1,125 gp
+06-07 Bigby’s interposing hand 1,125 gp
+08-09 blight 1,125 gp
+10-12 break enchantment 1,125 gp
+13-14 cloudkill 1,125 gp
+15-17 cone of cold 1,125 gp
+18-19 contact other plane 1,125 gp
+20 cure light wounds, mass 1,625 gp
+21-23 dismissal 1,125 gp
+24-26 dispel magic, greater 1,625 gp
+27-28 dominate person 1,125 gp
+29 dream 1,125 gp
+30-31 fabricate 1,125 gp
+32-33 false vision 1,375 gp
+34-35 feeblemind 1,125 gp
+36-39 hold monster 1,125 gp
+40 Leomund’s secret chest 1,125 gp
+41 magic jar 1,125 gp
+42-43 major creation 1,125 gp
+44-45 mind fog 1,125 gp
+46-47 mirage arcana 1,125 gp
+48-49 Mordenkainen’s faithful 1,125 gp hound
+50-51 Mordenkainen’s private 1,125 gp sanctum
+52-53 nightmare 1,125 gp
+54-57 overland flight 1,125 gp
+58-60 passwall 1,125 gp
+61 permanency 10,125 gp1
+62-63 persistent image 1,125 gp
+64-65 planar binding, lesser 1,125 gp
+66-67 prying eyes 1,125 gp
+68-69 Rary’s telepathic bond 1,125 gp
+70-71 seeming 1,125 gp
+72-74 sending 1,125 gp
+75-76 shadow evocation 1,125 gp
+77 song of discord 1,625 gp
+78-79 summon monster V 1,125 gp
+80 symbol of pain 2,125 gp
+81 symbol of sleep 2,125 gp
+82-83 telekinesis 1,125 gp
+84-88 teleport 1,125 gp
+89-90 transmute mud to rock 1,125 gp
+91-92 transmute rock to mud 1,125 gp
+93-95 wall of force 1,125 gp
+96-98 wall of stone 1,125 gp
+99-100 waves of fatigue 1,125 gp
+
+t23g: 6-lvl Arcane Spell Scrolls
+d%	Spell	Market Price
+01-02 acid fog 1,650 gp
+03-05 analyze dweomer 1,650 gp
+06 animate objects 2,400 gp
+07-09 antimagic field 1,650 gp
+10-12 bear’s endurance, mass 1,650 gp
+13-14 Bigby’s forceful hand 1,650 gp
+15-17 bull’s strength, mass 1,650 gp
+18-20 cat’s grace, mass 1,650 gp
+21-23 chain lightning 1,650 gp
+24-25 circle of death 2,150 gp
+26 contingency 1,650 gp
+27-28 control water 1,650 gp
+29 create undead 2,350 gp
+30 cure moderate wounds,mass 2,400 gp
+31-33 disintegrate 1,650 gp
+34-37 dispel magic, greater 1,650 gp
+38-40 eagle’s splendor, mass 1,650 gp
+41-42 eyebite 1,650 gp
+43 find the path 2,400 gp
+44-45 flesh to stone 1,650 gp
+46-48 fox’s cunning, mass 1,650 gp
+49 geas/quest 1,650 gp
+50-52 globe of invulnerability 1,650 gp
+53 guards and wards 1,650 gp
+54 heroes’ feast 2,400 gp
+55-56 heroism, greater 1,650 gp
+57 legend lore 1,900 gp
+58-59 mislead 1,650 gp
+60 Mordenkainen’s lucubration 1,650 gp
+61-62 move earth 1,650 gp
+63-64 Otiluke’s freezing sphere 1,650 gp
+65-67 owl’s wisdom, mass 1,650 gp
+68-69 permanent image 1,650 gp
+70-71 planar binding 1,650 gp
+72-73 programmed image 1,675 gp
+74-75 repulsion 1,650 gp
+76-78 shadow walk 1,650 gp
+79-81 stone to flesh 1,650 gp
+82-83 suggestion, mass 1,650 gp
+84-85 summon monster VI 1,650 gp
+86 symbol of fear 2,650 gp
+87 symbol of persuasion 6,650 gp
+88 sympathetic vibration 2,400 gp
+89-90 Tenser’s transformation 1,950 gp
+91-93 true seeing 1,900 gp
+94-95 undeath to death 2,150 gp
+96-97 veil 1,650 gp
+98-100 wall of iron 1,700 gp
+
+t23h: 7-lvl Arcane Spell Scrolls
+d%	Spell	Market Price
+01-03 arcane sight, greater 2,275 gp
+04-07 banishment 2,275 gp
+08-10 Bigby’s grasping hand 2,275 gp
+11-13 control undead 2,275 gp
+14-16 control weather 2,275 gp
+17-19 delayed blast fireball 2,275 gp
+20-21 Drawmij’s instant summons 3,275 gp
+22-25 ethereal jaunt 2,275 gp
+26-28 finger of death 2,275 gp
+29-31 forcecage 23775 gp
+32-35 hold person, mass 2,275 gp
+36-38 insanity 2,275 gp
+39-42 invisibility, mass 2,275 gp
+43 limited wish 3,775 gp1
+44-45 Mordenkainen’s magnificent mansion 2,275 gp
+46-48 Mordenkainen’s sword 2,275 gp
+49-51 phase door 2,275 gp
+52-54 plane shift 2,275 gp
+55-57 power word blind 2,275 gp
+58-61 prismatic spray 2,275 gp
+62-64 project image 2,280 gp
+65-67 reverse gravity 2,275 gp
+68-70 scrying, greater 2,275 gp
+71-73 sequester 2,275 gp
+74-76 shadow conjuration, greater 2,275 gp
+77 simulacrum 7,275 gp2
+78-80 spell turning 2,275 gp
+81-82 statue 2,275 gp
+83-85 summon monster VII 2,275 gp
+86 symbol of stunning 7,275 gp
+87 symbol of weakness 7,275 gp
+88-90 teleport object 2,275 gp
+91-95 teleport, greater 2,275 gp
+96-97 vision 2,775 gp
+98-100 waves of exhaustion 2,275 gp
+
+t23i: 8-lvl Arcane Spell Scrolls
+d%	Spell	Market Price
+01-02 antipathy 3,000 gp
+03-05 Bigby’s clenched fist 3,000 gp
+06-08 binding 8,500 gp1
+09-12 charm monster, mass 3,000 gp
+13 clone 4,000 gp
+14-16 create greater undead 3,000 gp
+17-19 demand 3,600 gp
+20-22 dimensional lock 3,000 gp
+23-26 discern location 3,000 gp
+27-29 horrid wilting 3,000 gp
+30-32 incendiary cloud 3,000 gp
+33-35 iron body 3,000 gp
+36-38 maze 3,000 gp
+39-41 mind blank 3,000 gp
+42-44 moment of prescience 3,000 gp
+45-48 Otiluke’s telekinetic 3,000 gp sphere
+49-51 Otto’s irresistible dance 3,000 gp
+52-54 planar binding, greater 3,000 gp
+55-57 polar ray 3,000 gp
+58-60 polymorph any object 3,000 gp
+61-63 power word stun 3,000 gp
+64-66 prismatic wall 3,000 gp
+67-70 protection from spells 3,500 gp
+71-73 prying eyes, greater 3,000 gp
+74-76 scintillating pattern 3,000 gp
+77-78 screen 3,000 gp
+79-81 shadow evocation, greater 3,000 gp
+82-84 shout, greater 3,000 gp
+85-87 summon monster VIII 3,000 gp
+88-90 sunburst 3,000 gp
+91 symbol of death 8,000 gp
+92 symbol of insanity 8,000 gp
+93-94 sympathy 4,500 gp
+95-98 temporal stasis 3,500 gp
+99-100 trap the soul 13,000 gp1
+
+t23j: 9-lvl Arcane Spell Scrolls
+d%	Spell	Market Price
+01-03 astral projection 4,870 gp
+04-07 Bigby’s crushing hand 3,825 gp
+08-12 dominate monster 3,825 gp
+13-16 energy drain 3,825 gp
+17-21 etherealness 3,825 gp
+22-25 foresight 3,825 gp
+26-31 freedom 3,825 gp
+32-36 gate 8,825 gp
+37-40 hold monster, mass 3,825 gp
+41-44 imprisonment 3,825 gp
+45-49 meteor swarm 3,825 gp
+50-53 Mordenkainen’s 3,825 gp disjunction
+54-58 power word kill 3,825 gp
+59-62 prismatic sphere 3,825 gp
+63-66 refuge 3,825 gp
+67-70 shades 3,825 gp
+71-76 shapechange 3,825 gp
+77-79 soul bind 3,825 gp
+80-83 summon monster IX 3,825 gp
+84-86 teleportation circle 4,825 gp
+87-91 time stop 3,825 gp
+92-95 wail of the banshee 3,825 gp
+96-99 weird 3,825 gp
+100 wish 28,825 gp1
+
+t24a: 0-lvl Divine Spell Scrolls
+d%	Spell	Market Price
+01-07 create water 12 gp 5 sp
+08-14 cure minor wounds 12 gp 5 sp
+15-22 detect magic 12 gp 5 sp
+23-29 detect poison 12 gp 5 sp
+30-36 flare 12 gp 5 sp
+37-43 guidance 12 gp 5 sp
+44-50 inflict minor wounds 12 gp 5 sp
+51-57 know direction 12 gp 5 sp
+58-65 light 12 gp 5 sp
+66-72 mending 12 gp 5 sp
+73-79 purify food and drink 12 gp 5 sp
+80-86 read magic 12 gp 5 sp
+87-93 resistance 12 gp 5 sp
+94-100 virtue 12 gp 5 sp
+
+t24b: 1-lvl Divine Spell Scrolls
+d%	Spell	Market Price
+01 alarm 100 gp
+02-03 bane 25 gp
+04-06 bless 25 gp
+07-09 bless water 50 gp
+10 bless weapon 100 gp
+11-12 calm animals 25 gp
+13-14 cause fear 25 gp
+15-16 charm animal 25 gp
+17-19 command 25 gp
+20-21 comprehend languages 25 gp
+22-26 cure light wounds 25 gp
+27-28 curse water 50 gp
+29-30 deathwatch 25 gp
+31-32 detect animals or plants 25 gp
+33-35 detect chaos/evil/good/law 25 gp
+36-37 detect snares and pits 25 gp
+38-39 detect undead 25 gp
+40-41 divine favor 25 gp
+42-43 doom 25 gp
+44-48 endure elements 25 gp
+49-50 entangle 25 gp
+51-52 entropic shield 25 gp
+53-54 faerie fire 25 gp
+55-56 goodberry 25 gp
+57-58 hide from animals 25 gp
+59-60 hide from undead 25 gp
+61-62 inflict light wounds 25 gp
+63-64 jump 25 gp
+65-66 longstrider 25 gp
+67-68 magic fang 25 gp
+69-72 magic stone 25 gp
+73-74 magic weapon 25 gp
+75-78 obscuring mist 25 gp
+79-80 pass without trace 25 gp
+81-82 produce flame 25 gp
+83-86 protection from chaos/evil/good/law 25 gp
+87-88 remove fear 25 gp
+89-90 sanctuary 25 gp
+91-92 shield of faith 25 gp
+93-94 shillelagh 25 gp
+95-96 speak with animals 25 gp
+97-98 summon monster I 25 gp
+99-100 summon nature’s ally I 25 gp
+
+t24c: 2-lvl Divine Spell Scrolls
+d%	Spell	Market Price
+01 animal messenger 150 gp
+02 animal trance 150 gp
+03-04 augury 175 gp
+05-06 barkskin 150 gp
+07-09 bear’s endurance 150 gp
+10-12 bull’s strength 150 gp
+13-14 calm emotions 150 gp
+15-17 cat’s grace 150 gp
+18 chill metal 150 gp
+19-20 consecrate 200 gp
+21-24 cure moderate wounds 150 gp
+25-26 darkness 150 gp
+27 death knell 150 gp
+28-30 delay poison 150 gp
+31-32 desecrate 200 gp
+33-35 eagle’s splendor 150 gp
+36-37 enthrall 150 gp
+38-39 find traps 150 gp
+40 fire trap 175 gp
+41-42 flame blade 150 gp
+43-44 flaming sphere 150 gp
+45-46 fog cloud 150 gp
+47 gentle repose 150 gp
+48 gust of wind 150 gp
+49 heat metal 150 gp
+50-51 hold animal 150 gp
+52-54 hold person 150 gp
+55-56 inflict moderate wounds 150 gp
+57-58 make whole 150 gp
+59-61 owl’s wisdom 150 gp
+62 reduce animal 150 gp
+63-64 remove paralysis 150 gp
+65-67 resist energy 150 gp
+68-70 restoration, lesser 150 gp
+71-72 shatter 150 gp
+73-74 shield other 150 gp
+75-76 silence 150 gp
+77 snare 150 gp
+78 soften earth and stone 150 gp
+79-80 sound burst 150 gp
+81 speak with plants 150 gp
+82-83 spider climb 150 gp
+84-85 spiritual weapon 150 gp
+86 status 150 gp
+87-88 summon monster II 150 gp
+89-90 summon nature’s ally II 150 gp
+91-92 summon swarm 150 gp
+93 tree shape 150 gp
+94-95 undetectable alignment 150 gp
+96-97 warp wood 150 gp
+98 wood shape 150 gp
+99-100 zone of truth 150 gp
+
+t24d: 3-lvl Divine Spell Scrolls
+d%	Spell	Market Price
+01-02 animate dead 625 gp
+03-04 bestow curse 375 gp
+05-06 blindness/deafness 375 gp
+07-08 call lightning 375 gp
+09-10 contagion 375 gp
+11-12 continual flame 425 gp
+13-14 create food and water 375 gp
+15-18 cure serious wounds 375 gp
+19 darkvision 375 gp
+20-21 daylight 375 gp
+22-23 deeper darkness 375 gp
+24-25 diminish plants 375 gp
+26-27 dispel magic 375 gp
+28-29 dominate animal 375 gp
+30-31 glyph of warding 575 gp
+32 heal mount 375 gp
+33-34 helping hand 375 gp
+35-36 inflict serious wounds 375 gp
+37-38 invisibility purge 375 gp
+39-40 locate object 375 gp
+41-46 magic circle against chaos/evil/good/law 375 gp
+47-48 magic fang, greater 375 gp
+49-50 magic vestment 375 gp
+51-52 meld into stone 375 gp
+53-55 neutralize poison 375 gp
+56-57 obscure object 375 gp
+58-59 plant growth 375 gp
+60-62 prayer 375 gp
+63-64 protection from energy 375 gp
+65-66 quench 375 gp
+67-69 remove blindness/deafness 375 gp
+70-71 remove curse 375 gp
+72-73 remove disease 375 gp
+74-76 searing light 375 gp
+77-78 sleet storm 375 gp
+79-80 snare 375 gp
+81-83 speak with dead 375 gp
+84-85 speak with plants 375 gp
+86-87 spike growth 375 gp
+88-89 stone shape 375 gp
+90-91 summon monster III 375 gp
+92-93 summon nature’s ally III 375 gp
+94-96 water breathing 375 gp
+97-98 water walk 375 gp
+99-100 wind wall 375 gp
+
+t24e: 4-lvl Divine Spell Scrolls
+d%	Spell	Market Price
+01-05 air walk 700 gp
+06-07 antiplant shell 700 gp
+08-09 blight 700 gp
+10-11 break enchantment 700 gp
+12-13 command plants 700 gp
+14-15 control water 700 gp
+16-21 cure critical wounds 700 gp
+22-26 death ward 700 gp
+27-31 dimensional anchor 700 gp
+32-34 discern lies 700 gp
+35-37 dismissal 700 gp
+38-39 divination 725 gp
+40-42 divine power 700 gp
+43-47 freedom of movement 700 gp
+48-49 giant vermin 700 gp
+50-51 holy sword 700 gp
+52-54 imbue with spell ability 700 gp
+55-57 inflict critical wounds 700 gp
+58-60 magic weapon, greater 700 gp
+61-62 nondetection 750 gp
+63-64 planar ally, lesser 1,200 gp
+65-67 poison 700 gp
+68-69 reincarnate 700 gp
+70-71 repel vermin 700 gp
+72-76 restoration 800 gp
+77-78 rusting grasp 700 gp
+79-81 sending 700 gp
+82-85 spell immunity 700 gp
+86-87 spike stones 700 gp
+88-90 summon monster IV 700 gp
+91-93 summon nature’s ally IV 700 gp
+94-98 tongues 700 gp
+99-100 tree stride 700 gp
+
+t24f: 5-lvl Divine Spell Scrolls
+d%	Spell	Market Price
+01-03 animal growth 1,125 gp
+04-05 atonement 3,625 gp
+06 awaken 2,375 gp
+07-09 baleful polymorph 1,125 gp
+10-13 break enchantment 1,125 gp
+14-16 call lightning storm 1,125 gp
+17-20 command, greater 1,125 gp
+21 commune 1,625 gp
+22 commune with nature 1,125 gp
+23-24 control winds 1,125 gp
+25-30 cure light wounds, mass 1,125 gp
+31-34 dispel chaos/evil/good/law 1,125 gp
+35-38 disrupting weapon 1,125 gp
+39-41 flame strike 1,125 gp
+42-43 hallow 6,125 gp1
+44-46 ice storm 1,125 gp
+47-49 inflict light wounds, mass 1,125 gp
+50-52 insect plague 1,125 gp
+53 mark of justice 1,125 gp
+54-56 plane shift 1,125 gp
+57-58 raise dead 6,125 gp
+59-61 righteous might 1,125 gp
+62-63 scrying 1,125 gp
+64-66 slay living 1,125 gp
+67-69 spell resistance 1,125 gp
+70-71 stoneskin 1,375 gp
+72-74 summon monster V 1,125 gp
+75-77 summon nature’s ally V 1,125 gp
+78 symbol of pain 2,125 gp
+79 symbol of sleep 2,125 gp
+80-82 transmute mud to rock 1,125 gp
+83-85 transmute rock to mud 1,125 gp
+86-89 true seeing 1,375 gp
+90-91 unhallow 6,125 gp1
+92-94 wall of fire 1,125 gp
+95-97 wall of stone 1,125 gp
+98-100 wall of thorns 1,125 gp
+
+t24g: 6-lvl Divine Spell Scrolls
+d%	Spell	Market Price
+01-03 animate objects 1,650 gp
+04-06 antilife shell 1,650 gp
+07-09 banishment 1,650 gp
+10-13 bear’s endurance, mass 1,650 gp
+14-16 blade barrier 1,650 gp
+17-20 bull’s strength, mass 1,650 gp
+21-24 cat’s grace, mass 1,650 gp
+25 create undead 1,650 gp
+26-29 cure moderate wounds, mass 1,650 gp
+30-33 dispel magic, greater 1,650 gp
+34-37 eagle’s splendor, mass 1,650 gp
+38-40 find the path 1,650 gp
+41-43 fire seeds 1,650 gp
+44 forbiddance 4,650 gp1
+45 geas/quest 1,650 gp
+46 glyph of warding, greater 1,650 gp
+47-49 harm 1,650 gp
+50-52 heal 1,650 gp
+53-55 heroes’ feast 1,650 gp
+56-58 inflict moderate wounds, mass 1,650 gp
+59-61 ironwood 1,650 gp
+62 liveoak 1,650 gp
+63-65 move earth 1,650 gp
+66-69 owl’s wisdom, mass 1,650 gp
+70-71 planar ally 2,400 gp
+72-74 repel wood 1,650 gp
+75-77 spellstaff 1,650 gp
+78-80 stone tell 1,650 gp
+81-83 summon monster VI 1,650 gp
+84-86 summon nature’s ally VI 1,650 gp
+87 symbol of fear 2,650 gp
+88 symbol of persuasion 6,650 gp
+89-91 transport via plants 1,650 gp
+92-94 undeath to death 2,150 gp
+95-97 wind walk 1,650 gp
+98-100 word of recall 1,650 gp
+
+t24h: 7-lvl Divine Spell Scrolls
+d%	Spell	Market Price
+01-05 animate plants 2,275 gp
+06-09 blasphemy 2,275 gp
+10-14 changestaff 2,275 gp
+15-16 control weather 2,275 gp
+17-21 creeping doom 2,275 gp
+22-27 cure serious wounds, mass 2,275 gp
+28-32 destruction 2,275 gp
+33-36 dictum 2,275 gp
+37-41 ethereal jaunt 2,275 gp
+42-45 holy word 2,275 gp
+46-50 inflict serious wounds, mass 2,275 gp
+51-55 refuge 3,775 gp
+56-60 regenerate 2,275 gp
+61-65 repulsion 2,275 gp
+66-69 restoration, greater 4,775 gp
+70-71 resurrection 12,275 gp
+72-76 scrying, greater 2,275 gp
+77-81 summon monster VII 2,275 gp
+82-85 summon nature’s ally VII 2,275 gp
+86-90 sunbeam 2,275 gp
+91 symbol of stunning 7,275 gp
+92 symbol of weakness 7,275 gp
+93-97 transmute metal to wood 2,275 gp
+98-100 word of chaos 2,275 gp
+
+t24i: 8-lvl Divine Spell Scrolls
+d%	Spell	Market Price
+01-04 animal shapes 3,000 gp
+05-10 antimagic field 3,000 gp
+11-13 cloak of chaos 3,000 gp
+14-17 control plants 3,000 gp
+18-20 create greater undead 3,600 gp
+21-27 cure critical wounds, mass 3,000 gp
+28-32 dimensional lock 3,000 gp
+33-36 discern location 3,000 gp
+37-41 earthquake 3,000 gp
+42-45 finger of death 3,000 gp
+46-49 fire storm 3,000 gp
+50-52 holy aura 3,000 gp
+53-56 inflict critical wounds, mass 3,000 gp
+57-60 planar ally, greater 5,500 gp
+61-65 repel metal or stone 3,000 gp
+66-69 reverse gravity 3,000 gp
+70-72 shield of law 3,000 gp
+73-76 spell immunity, greater 3,000 gp
+77-80 summon monster VIII 3,000 gp
+81-84 summon nature’s ally VIII 3,000 gp
+85-89 sunburst 3,000 gp
+90-91 symbol of death 8,000 gp
+92-93 symbol of insanity 8,000 gp
+94-96 unholy aura 3,000 gp
+97-100 whirlwind 3,000 gp
+
+t24j: 9-lvl Divine Spell Scrolls
+d%	Spell	Market Price
+01-04 antipathy 3,825 gp
+05-07 astral projection 4,870 gp
+08-13 elemental swarm 3,825 gp
+14-19 energy drain 3,825 gp
+20-25 etherealness 3,825 gp
+26-31 foresight 3,825 gp
+32-37 gate 8,825 gp
+38-46 heal, mass 3,825 gp
+47-53 implosion 3,825 gp
+54-55 miracle 28,825 gp1
+56-61 regenerate 3,825 gp
+62-66 shambler 3,825 gp
+67-72 shapechange 3,825 gp
+73-77 soul bind 3,825 gp
+78-83 storm of vengeance 3,825 gp
+84-89 summon monster IX 3,825 gp
+90-95 summon nature’s ally IX 3,825 gp
+96-99 sympathy 5,325 gp
+100 true resurrection 28,825 gp
+
+t25: Staffs
+Medium	Major	Staff	Market Price
+01-15 01-03 Charming 16,500 gp
+16-30 04-09 Fire 17,750 gp
+31-40 10-11 Swarming insects 24,750 gp
+41-60 12-17 Healing 27,750 gp
+61-75 18-19 Size alteration 29,000 gp
+76-90 20-24 Illumination 48,250 gp
+91-95 25-31 Frost 56,250 gp
+96-100 32-38 Defense 58,250 gp
+- 39-43 Abjuration 65,000 gp
+- 44-48 Conjuration 65,000 gp
+- 49-53 Enchantment 65,000 gp
+- 54-58 Evocation 65,000 gp
+- 59-63 Illusion 65,000 gp
+- 64-68 Necromancy 65,000 gp
+- 69-73 Transmutation 65,000 gp
+- 74-77 Divination 73,500 gp
+- 78-82 Earth and stone 80,500 gp
+- 83-87 Woodlands 101,250 gp
+- 88-92 Life 155,750 gp
+- 93-97 Passage 170,500 gp
+- 98-100 Power 211,000 gp
+
+t26: Wands
+Minor	Medium	Major	Wand	Market Price
+01-02 - - Detect magic 375 gp
+03-04 - - Light 375 gp
+05-07 - - Burning hands 750 gp
+08-10 - - Charm animal 750 gp
+11-13 - - Charm person 750 gp
+14-16 - - Color spray 750 gp
+17-19 - - Cure light wounds 750 gp
+20-22 - - Detect secret doors 750 gp
+23-25 - - Enlarge person 750 gp
+26-28 - - Magic missile (1st) 750 gp
+29-31 - - Shocking grasp 750 gp
+32-34 - - Summon monster I 750 gp
+35-36 - - Magic missile (3rd) 2,250 gp
+37 01-03 - Magic missile (5th) 3,750 gp
+38-40 04-07 - Bear’s endurance 4,500 gp
+41-43 08-11 - Bull’s strength 4,500 gp
+44-46 12-15 - Cat’s grace 4,500 gp
+47-49 16-20 - Cure moderate wounds 4,500 gp
+50-51 21-22 - Darkness 4,500 gp
+52-54 23-24 - Daylight 4,500 gp
+55-57 25-27 - Delay poison 4,500 gp
+58-60 28-31 - Eagle’s splendor 4,500 gp
+61-63 32-33 - False life 4,500 gp
+64-66 34-37 - Fox’s cunning 4,500 gp
+67-68 38 - Ghoul touch 4,500 gp
+69-71 39 - Hold person 4,500 gp
+72-74 40-42 - Invisibility 4,500 gp
+75-77 43-44 - Knock 4,500 gp
+78-80 45 - Levitate 4,500 gp
+81-83 46-47 - Melf’s acid arrow 4,500 gp
+84-86 48-49 - Mirror image 4,500 gp
+87-89 50-53 - Owl’s wisdom 4,500 gp
+90-91 54 - Shatter 4,500 gp
+92-94 55-56 - Silence 4,500 gp
+95-97 57 - Summon monster II 4,500 gp
+98-100 58-59 - Web 4,500 gp
+- 60-62 01-02 Magic missile (7th) 5,250 gp
+- 63-64 03-05 Magic missile (9th) 6,750 gp
+- 65-67 06-07 Call lightning (5th) 11,250 gp
+- 68 08 Charm person, heightened 11,250 gp (3rd-level spell)
+- 69-70 09-10 Contagion 11,250 gp
+- 71-74 11-13 Cure serious wounds 11,250 gp
+- 75-77 14-15 Dispel magic 11,250 gp
+- 78-81 16-17 Fireball (5th) 11,250 gp
+- 82-83 18-19 Keen edge 11,250 gp
+- 84-87 20-21 Lightning bolt (5th) 11,250 gp
+88-89 22-23 Major image 11,250 gp
+- 90-91 24-25 Slow 11,250 gp
+- 92-94 26-27 Suggestion 11,250 gp
+- 95-97 28-29 Summon monster III 11,250 gp
+- 98 30-31 Fireball (6th) 13,500 gp
+- 99 32-33 Lightning bolt (6th) 13,500 gp
+- 100 34-35 Searing light (6th) 13,500 gp
+- - 36-37 Call lightning (8th) 18,000 gp
+- - 38-39 Fireball (8th) 18,000 gp
+- - 40-41 Lightning bolt (8th) 18,000 gp
+- - 42-45 Charm monster 21,000 gp
+- - 46-50 Cure critical wounds 21,000 gp
+- - 51-52 Dimensional anchor 21,000 gp
+- - 53-55 Fear 21,000 gp
+- - 56-59 Greater invisibility 21,000 gp
+- - 60 Hold person, heightened 21,000 gp (4th level)
+- - 61-65 Ice storm 21,000 gp
+- - 66-68 Inflict critical wounds 21,000 gp
+- - 69-72 Neutralize poison 21,000 gp
+- - 73-74 Poison 21,000 gp
+- - 75-77 Polymorph 21,000 gp
+- - 78 Ray of enfeeblement, 21,000 gp heightened (4th level)
+- - 79 Suggestion, heightened 21,000 gp (4th level)
+- - 80-82 Summon monster IV 21,000 gp
+- - 83-86 Wall of fire 21,000 gp
+- - 87-90 Wall of ice 21,000 gp
+- - 91 Dispel magic (10th) 22,500 gp
+- - 92 Fireball (10th) 22,500 gp
+- - 93 Lightning bolt (10th) 22,500 gp
+- - 94 Chaos hammer (8th) 24,000 gp
+- - 95 Holy smite (8th) 24,000 gp
+- - 96 Order’s wrath (8th) 24,000 gp
+- - 97 Unholy blight (8th) 24,000 gp
+- - 98-99 Restoration1 26,000 gp
+- - 100 Stoneskin2 33,500 gp
+
+t27: Minor Wondrous Items
+d%	Item	Market Price
+01 Quaal’s feather token, anchor 50 gp
+02 Universal solvent 50 gp
+03 Elixir of love 150 gp
+04 Unguent of timelessness 150 gp
+05 Quaal’s feather token, fan 200 gp
+06 Dust of tracelessness 250 gp
+07 Elixir of hiding 250 gp
+08 Elixir of sneaking 250 gp
+09 Elixir of swimming 250 gp
+10 Elixir of vision 250 gp
+11 Silversheen 250 gp
+12 Quaal’s feather token, bird 300 gp
+13 Quaal’s feather token, tree 400 gp
+14 Quaal’s feather token, swan boat 450 gp
+15 Elixir of truth 500 gp
+16 Quaal’s feather token, whip 500 gp
+17 Dust of dryness 850 gp
+18 Bag of tricks, gray 900 gp
+19 Hand of the mage 900 gp
+20 Bracers of armor +1 1,000 gp
+21 Cloak of resistance +1 1,000 gp
+22 Pearl of power, 1st-level spell 1,000 gp
+23 Phylactery of faithfulness 1,000 gp
+24 Salve of slipperiness 1,000 gp
+25 Elixir of fire breath 1,100 gp
+26 Pipes of the sewers 1,150 gp
+27 Dust of illusion 1,200 gp
+28 Goggles of minute seeing 1,250 gp
+29 Brooch of shielding 1,500 gp
+30 Necklace of fireballs type I 1,650 gp
+31 Dust of appearance 1,800 gp
+32 Hat of disguise 1,800 gp
+33 Pipes of sounding 1,800 gp
+34 Quiver of Ehlonna 1,800 gp
+35 Amulet of natural armor +1 2,000 gp
+36 Heward’s handy haversack 2,000 gp
+37 Horn of fog 2,000 gp
+38 Elemental gem 2,250 gp
+39 Robe of bones 2,400 gp
+40 Sovereign glue 2,400 gp
+41 Bag of holding type I 2,500 gp
+42 Boots of elvenkind 2,500 gp
+43 Boots of the winterlands 2,500 gp
+44 Candle of truth 2,500 gp
+45 Cloak of elvenkind 2,500 gp
+46 Eyes of the eagle 2,500 gp
+47 Scarab, golembane 2,500 gp
+48 Necklace of fireballs type II 2,700 gp
+49 Stone of alarm 2,700 gp
+50 Bag of tricks, rust 3,000 gp
+51 Bead of force 3,000 gp
+52 Chime of opening 3,000 gp
+53 Horseshoes of speed 3,000 gp
+54 Rope of climbing 3,000 gp
+55 Dust of disappearance 3,500 gp
+56 Lens of detection 3,500 gp
+57 Vestment, druid’s 3,750 gp
+58 Figurine of wondrous power, silver raven 3,800 gp
+59 Amulet of health +2 4,000 gp
+60 Bracers of armor +2 4,000 gp
+61 Cloak of Charisma +2 4,000 gp
+62 Cloak of resistance +2 4,000 gp
+63 Gauntlets of ogre power 4,000 gp
+64 Gloves of arrow snaring 4,000 gp
+65 Gloves of Dexterity +2 4,000 gp
+66 Headband of intellect +2 4,000 gp
+67 Ioun stone, clear spindle 4,000 gp
+68 Keoghtom’s ointment 4,000 gp
+69 Nolzur’s marvelous pigments 4,000 gp
+70 Pearl of power, 2nd-level spell 4,000 gp
+71 Periapt of Wisdom +2 4,000 gp
+72 Stone salve 4,000 gp
+73 Necklace of fireballs type III 4,350 gp
+74 Circlet of persuasion 4,500 gp
+75 Slippers of spider climbing 4,800 gp
+76 Incense of meditation 4,900 gp
+77 Bag of holding type II 5,000 gp
+78 Bracers of archery, lesser 5,000 gp
+79 Ioun stone, dusty rose prism 5,000 gp
+80 Helm of comprehend languages and read magic 5,200 gp
+81 Vest of escape 5,200 gp
+82 Eversmoking bottle 5,400 gp
+83 Murlynd’s spoon 5,400 gp
+84 Necklace of fireballs type IV 5,400 gp
+85 Boots of striding and springing 5,500 gp
+86 Wind fan 5,500 gp
+87 Amulet of mighty fists +1 6,000 gp
+88 Horseshoes of a zephyr 6,000 gp
+89 Pipes of haunting 6,000 gp
+90 Necklace of fireballs type V 6,150 gp
+91 Gloves of swimming and climbing 6,250 gp
+92 Bag of tricks, tan 6,300 gp
+93 Circlet of blasting, minor 6,480 gp
+94 Horn of goodness/evil 6,500 gp
+95 Robe of useful items 7,000 gp
+96 Boat, folding 7,200 gp
+97 Cloak of the manta ray 7,200 gp
+98 Bottle of air 7,250 gp
+99 Bag of holding type III 7,400 gp
+100 Periapt of health 7,400 gp
+
+t28: Medium Wondrous Items
+d%	Item	Market Price
+01 Boots of levitation 7,500 gp
+02 Harp of charming 7,500 gp
+03 Amulet of natural armor +2 8,000 gp
+04 Golem manual, flesh 8,000 gp
+05 Hand of glory 8,000 gp
+06 Ioun stone, deep red sphere 8,000 gp
+07 Ioun stone, incandescent blue sphere 8,000 gp
+08 Ioun stone, pale blue rhomboid 8,000 gp
+09 Ioun stone, pink and green sphere 8,000 gp
+10 Ioun stone, pink rhomboid 8,000 gp
+11 Ioun stone, scarlet and blue sphere 8,000 gp
+12 Deck of illusions 8,100 gp
+13 Necklace of fireballs type VI 8,100 gp
+14 Candle of invocation 8,400 gp
+15 Bracers of armor +3 9,000 gp
+16 Cloak of resistance +3 9,000 gp
+17 Decanter of endless water 9,000 gp
+18 Necklace of adaptation 9,000 gp
+19 Pearl of power, 3rd-level spell 9,000 gp
+20 Talisman of the sphere 9,000 gp
+21 Figurine of wondrous power, serpentine owl 9,100 gp
+22 Necklace of fireballs type VII 9,150 gp
+23 Strand of prayer beads, lesser 9,600 gp
+24 Bag of holding type IV 10,000 gp
+25 Figurine of wondrous power, bronze griffon 10,000 gp
+26 Figurine of wondrous power, ebony fly 10,000 gp
+27 Glove of storing 10,000 gp
+28 Ioun stone, dark blue rhomboid 10,000 gp
+29 Stone horse, courser 10,000 gp
+30 Cape of the mountebank 10,080 gp
+31 Phylactery of undead turning 11,000 gp
+32 Gauntlet of rust 11,500 gp
+33 Boots of speed 12,000 gp
+34 Goggles of night 12,000 gp
+35 Golem manual, clay 12,000 gp
+36 Medallion of thoughts 12,000 gp
+37 Pipes of pain 12,000 gp
+38 Boccob’s blessed book 12,500 gp
+39 Belt, monk’s 13,000 gp
+40 Gem of brightness 13,000 gp
+41 Lyre of building 13,000 gp
+42 Cloak of arachnida 14,000 gp
+43 Stone horse, destrier 14,800 gp
+44 Belt of dwarvenkind 14,900 gp
+45 Periapt of wound closure 15,000 gp
+46 Horn of the tritons 15,100 gp
+47 Pearl of the sirines 15,300 gp
+48 Figurine of wondrous power, onyx dog 15,500 gp
+49 Amulet of health +4 16,000 gp
+50 Belt of giant Strength +4 16,000 gp
+51 Boots, winged 16,000 gp
+52 Bracers of armor +4 16,000 gp
+53 Cloak of Charisma +4 16,000 gp
+54 Cloak of resistance +4 16,000 gp
+55 Gloves of Dexterity +4 16,000 gp
+56 Headband of intellect +4 16,000 gp
+57 Pearl of power, 4th-level spell 16,000 gp
+58 Periapt of Wisdom +4 16,000 gp
+59 Scabbard of keen edges 16,000 gp
+60 Figurine of wondrous power, golden lions 16,500 gp
+61 Chime of interruption 16,800 gp
+62 Broom of flying 17,000 gp
+63 Figurine of wondrous power, marble elephant 17,000 gp
+64 Amulet of natural armor +3 18,000 gp
+65 Ioun stone, iridescent spindle 18,000 gp
+66 Bracelet of friends 19,000 gp
+67 Carpet of flying, 5 ft. by 5 ft. 20,000 gp
+68 Horn of blasting 20,000 gp
+69 Ioun stone, pale lavender ellipsoid 20,000 gp
+70 Ioun stone, pearly white spindle 20,000 gp
+71 Portable hole 20,000 gp
+72 Stone of good luck (luckstone) 20,000 gp
+73 Figurine of wondrous power, ivory goats 21,000 gp
+74 Rope of entanglement 21,000 gp
+75 Golem manual, stone 22,000 gp
+76 Mask of the skull 22,000 gp
+77 Mattock of the titans 23,348 gp
+78 Circlet of blasting, major 23,760 gp
+79 Amulet of mighty fists +2 24,000 gp
+80 Cloak of displacement, minor 24,000 gp
+81 Helm of underwater action 24,000 gp
+82 Bracers of archery, greater 25,000 gp
+83 Bracers of armor +5 25,000 gp
+84 Cloak of resistance +5 25,000 gp
+85 Eyes of doom 25,000 gp
+86 Pearl of power, 5th-level spell 25,000 gp
+87 Maul of the titans 25,305 gp
+88 Strand of prayer beads 25,800 gp
+89 Cloak of the bat 26,000 gp
+90 Iron bands of Bilarro 26,000 gp
+91 Cube of frost resistance 27,000 gp
+92 Helm of telepathy 27,000 gp
+93 Periapt of proof against poison 27,000 gp
+94 Robe of scintillating colors 27,000 gp
+95 Manual of bodily health +1 27,500 gp
+96 Manual of gainful exercise +1 27,500 gp
+97 Manual of quickness in action +1 27,500 gp
+98 Tome of clear thought +1 27,500 gp
+99 Tome of leadership and influence +1 27,500 gp
+100 Tome of understanding +1 27,500 gp
+
+t29: Major Wondrous Items
+d%	Item	Market Price
+01 Dimensional shackles 28,000 gp
+02 Figurine of wondrous power, obsidian steed 28,500 gp
+03 Drums of panic 30,000 gp
+04 Ioun stone, orange 30,000 gp
+05 Ioun stone, pale green prism 30,000 gp
+06 Lantern of revealing 30,000 gp
+07 Robe of blending 30,000 gp
+08 Amulet of natural armor +4 32,000 gp
+09 Amulet of proof against detection and location 35,000 gp
+10 Carpet of flying, 5 ft. by 10 ft. 35,000 gp
+11 Golem manual, iron 35,000 gp
+12 Amulet of health +6 36,000 gp
+13 Belt of giant Strength +6 36,000 gp
+14 Bracers of armor +6 36,000 gp
+15 Cloak of Charisma +6 36,000 gp
+16 Gloves of Dexterity +6 36,000 gp
+17 Headband of intellect +6 36,000 gp
+18 Ioun stone, vibrant purple prism 36,000 gp
+19 Pearl of power, 6th-level spell 36,000 gp
+20 Periapt of Wisdom +6 36,000 gp
+21 Scarab of protection 38,000 gp
+22 Ioun stone, lavender and green ellipsoid 40,000 gp
+23 Ring gates 40,000 gp
+24 Crystal ball 42,000 gp
+25 Golem manual, greater stone 44,000 gp
+26 Orb of storms 48,000 gp
+27 Boots of teleportation 49,000 gp
+28 Bracers of armor +7 49,000 gp
+29 Pearl of power, 7th-level spell 49,000 gp
+30 Amulet of natural armor +5 50,000 gp
+31 Cloak of displacement, major 50,000 gp
+32 Crystal ball with see invisibility 50,000 gp
+33 Horn of Valhalla 50,000 gp
+34 Crystal ball with detect thoughts 51,000 gp
+35 Carpet of flying, 6 ft. by 9 ft. 53,000 gp
+36 Amulet of mighty fists +3 54,000 gp
+37 Wings of flying 54,000 gp
+38 Cloak of etherealness 55,000 gp
+39 Daern’s instant fortress 55,000 gp
+40 Manual of bodily health +2 55,000 gp
+41 Manual of gainful exercise +2 55,000 gp
+42 Manual of quickness in action +2 55,000 gp
+43 Tome of clear thought +2 55,000 gp
+44 Tome of leadership and influence +2 55,000 gp
+45 Tome of understanding +2 55,000 gp
+46 Eyes of charming 56,000 gp
+47 Robe of stars 58,000 gp
+48 Carpet of flying, 10 ft. by 10 ft. 60,000 gp
+49 Darkskull 60,000 gp
+50 Cube of force 62,000 gp
+51 Bracers of armor +8 64,000 gp
+52 Pearl of power, 8th-level spell 64,000 gp
+53 Crystal ball with telepathy 70,000 gp
+54 Horn of blasting, greater 70,000 gp
+55 Pearl of power, two spells 70,000 gp
+56 Helm of teleportation 73,500 gp
+57 Gem of seeing 75,000 gp
+58 Robe of the archmagi 75,000 gp
+59 Mantle of faith 76,000 gp
+60 Crystal ball with true seeing 80,000 gp
+61 Pearl of power, 9th-level spell 81,000 gp
+62 Well of many worlds 82,000 gp
+63 Manual of bodily health +3 82,500 gp
+64 Manual of gainful exercise +3 82,500 gp
+65 Manual of quickness in action +3 82,500 gp
+66 Tome of clear thought +3 82,500 gp
+67 Tome of leadership and influence +3 82,500 gp
+68 Tome of understanding +3 82,500 gp
+69 Apparatus of Kwalish 90,000 gp
+70 Mantle of spell resistance 90,000 gp
+71 Mirror of opposition 92,000 gp
+72 Strand of prayer beads, greater 95,800 gp
+73 Amulet of mighty fists +4 96,000 gp
+74 Eyes of petrification 98,000 gp
+75 Bowl of commanding water elementals 100,000 gp
+76 Brazier of commanding fire elementals 100,000 gp
+77 Censer of controlling air elementals 100,000 gp
+78 Stone of controlling earth elementals 100,000 gp
+79 Manual of bodily health +4 110,000 gp
+80 Manual of gainful exercise +4 110,000 gp
+81 Manual of quickness in action +4 110,000 gp
+82 Tome of clear thought +4 110,000 gp
+83 Tome of leadership and influence +4 110,000 gp
+84 Tome of understanding +4 110,000 gp
+85 Amulet of the planes 120,000 gp
+86 Robe of eyes 120,000 gp
+87 Helm of brilliance 125,000 gp
+88 Manual of bodily health +5 137,500 gp
+89 Manual of gainful exercise +5 137,500 gp
+90 Manual of quickness in action +5 137,500 gp
+91 Tome of clear thought +5 137,500 gp
+92 Tome of leadership and influence +5 137,500 gp
+93 Tome of understanding +5 137,500 gp
+94 Efreeti bottle 145,000 gp
+95 Amulet of mighty fists +5 150,000 gp
+96 Chaos diamond 160,000 gp
+97 Cubic gate 164,000 gp
+98 Iron flask 170,000 gp
+99 Mirror of mental prowess 175,000 gp
+100 Mirror of life trapping 200,000 gp
+
