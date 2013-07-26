@@ -106,7 +106,7 @@ public class MagicItemGen {
     
     private static void readDatabase(File file) {
         try{
-            BufferedReader br = new BufferedReader(new FileReader(file));
+            BufferedReader br = new BufferedReader(new InputStreamReader(Class.getResourceAsStream("magic.txt")));
             String line;
             Table table = new Table(null,null);
             int state=0;
