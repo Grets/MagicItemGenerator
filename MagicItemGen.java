@@ -41,10 +41,9 @@ public class MagicItemGen {
         commandReading: while(!(line = scan.nextLine()).equals("exit")) {
             int size=0;
             boolean autoRand = true;
-  		boolean runTable = true;
+  		    boolean runTable = true;
             String table = "t1";
-            
-            System.out.println("--------------------\n");
+            int count = 1;
             
             if(!line.equals(""))
             for(String input:line.split(" ")) {
@@ -59,11 +58,13 @@ public class MagicItemGen {
                 } else if(input.equals("auto")) {
                     autoRand = true;
                 } else if(input.equals("help")) {
+                    System.out.println("--------------------\n");
                     System.out.println("Command listing:");
                     System.out.println("exit - quit the program");
                     System.out.println("help - get command listing");
                     System.out.println("list - list available tables");
-                    System.out.println("show TABLE - list the contents of a table");
+                    System.out.println("show @TABLE_NAME - list the contents of a table");
+                    System.out.println("count=X - generate X items with the same parameters");
                     System.out.println();
                     System.out.println("Usage parameters:");
                     System.out.println("@TABLE_NAME        - the table to run");
@@ -75,6 +76,7 @@ public class MagicItemGen {
                     
                     continue commandReading;
                 } else if(input.equals("list")) {
+                    System.out.println("--------------------\n");
                     Iterator it = map.entrySet().iterator();
                     
                     while(it.hasNext()) {
@@ -87,11 +89,16 @@ public class MagicItemGen {
                         runTable = false;
                 } else if(input.charAt(0) == '@') {
                     table = input.substring(1);
+                } else if(input.split('=')[0].equals("count")) {
+                    count = Integer.parseInt(input.split('='));
                 }
             }
             
             if(runTable)
+                for(int i=0;i<count;i++) {
+                    System.out.println("--------------------\n");
                     map.get(table).runTable(size,autoRand);
+                }
             else
                     map.get(table).showTable();
         }
