@@ -89,8 +89,8 @@ public class MagicItemGen {
                         runTable = false;
                 } else if(input.charAt(0) == '@') {
                     table = input.substring(1);
-                } else if(input.split('=')[0].equals("count")) {
-                    count = Integer.parseInt(input.split('='));
+                } else if(input.split("=")[0].equals("count")) {
+                    count = Integer.parseInt(input.split("=")[1]);
                 }
             }
             
@@ -106,7 +106,9 @@ public class MagicItemGen {
     
     private static void readDatabase(File file) {
         try{
-            BufferedReader br = new BufferedReader(new InputStreamReader(Class.getResourceAsStream("magic.txt")));
+			InputStream is = MagicItemGen.class.getResourceAsStream("/magic.txt");
+			InputStreamReader isr = new InputStreamReader(is);
+            BufferedReader br = new BufferedReader(isr);
             String line;
             Table table = new Table(null,null);
             int state=0;

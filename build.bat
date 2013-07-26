@@ -1,1 +1,3 @@
-jar cf MagicItemGen.jar MagicItemGen.java Table.java magic.txt
+del magicitemgen\MagicItemGen.class magicitemgen\Table.class MagicItemGen.jar
+javac magicitemgen\MagicItemGen.java magicitemgen\Table.java
+jar cfm MagicItemGen.jar manifest.txt magicitemgen\*.class magic.txt
