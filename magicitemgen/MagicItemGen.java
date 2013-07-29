@@ -96,6 +96,7 @@ public class MagicItemGen {
             
             if(runTable)
                 for(int i=0;i<count;i++) {
+                	if(count > 1) System.out.print(i+". ");
                     System.out.println("--------------------\n");
                     map.get(table).runTable(size,autoRand);
                 }
