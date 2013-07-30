@@ -14,27 +14,31 @@ public class Table {
     private String name;
     private String description;
     private String header;
-    private ArrayList<Integer> probabilities[];
+    private ArrayList<ArrayList<Integer>> probabilities;
     private ArrayList<String> entries;
     
     public Table(String name,
                  String description) {
         this.name = name;
         this.description = description;
-        probabilities = new ArrayList[] {new ArrayList<Integer>(),new ArrayList<Integer>(),new ArrayList<Integer>()};
-        probabilities[0].add(new Integer("0"));
-        probabilities[1].add(new Integer("0"));
-        probabilities[2].add(new Integer("0"));
+        probabilities = new ArrayList<ArrayList<Integer>>();
+        
+        probabilities.add(new ArrayList<Integer>());
+        probabilities.add(new ArrayList<Integer>());
+        probabilities.add(new ArrayList<Integer>());
+        
+        probabilities.get(0).add(new Integer("0"));
+        probabilities.get(1).add(new Integer("0"));
+        probabilities.get(2).add(new Integer("0"));
         entries = new ArrayList<String>();
     }
   
 	public void showTable() {
             System.out.println(name+"\t\t\t"+description);
-            //System.out.println("\t\t\t"+header);
             for(int i=0;i<entries.size();i++) {
-                    System.out.println(probabilities[0].get(i)+"\t"+
-                                       probabilities[1].get(i)+"\t"+
-                                       probabilities[2].get(i)+"\t"+
+                    System.out.println(probabilities.get(0).get(i)+"\t"+
+                                       probabilities.get(1).get(i)+"\t"+
+                                       probabilities.get(2).get(i)+"\t"+
                                                 entries.get(i));
              }
 	}
@@ -59,13 +63,12 @@ public class Table {
         }
         
         int i;
-        for(i=0;probabilities[size].get(i) < rand;i++);
+        for(i=0;probabilities.get(size).get(i) < rand;i++);
         
         System.out.println("\t\t"+entries.get(i)+"\n");
         
         for(String nextTable:entries.get(i).split(" ")) {
             if(nextTable.charAt(0) == '@') {
-                //System.out.println("NEXT: "+nextTable);
                 ((Table)MagicItemGen.getMap().get(nextTable.substring(1))).runTable(size,autoRandom);
             }
         }
@@ -85,13 +88,13 @@ public class Table {
     public void addEntry(int probs[], String text) {
         for(int i=0;i<3;i++) {
             if(probs[i] > 0) {
-                //System.out.print(probabilities[0].size()+" ");
-                probabilities[i].add(probs[i]);
+                //System.out.print(probabilities.get(0).size()+" ");
+                probabilities.get(i).add(probs[i]);
             } else {
-                probabilities[i].add(probabilities[i].get(probabilities[i].size()-1));
+                probabilities.get(i).add(probabilities.get(i).get(probabilities.get(i).size()-1));
             }
         }
-        //System.out.println(probabilities[0].get(probabilities[0].size()-1));
+        //System.out.println(probabilities.get(0).get(probabilities.get(0).size()-1));
         entries.add(text);
     }
     
