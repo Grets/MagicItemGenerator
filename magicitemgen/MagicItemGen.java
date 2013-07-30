@@ -17,6 +17,8 @@ public class MagicItemGen {
     
     public static void main(String args[]) {
         System.out.println("Welcome to Chris' Magic Item Generator!");
+        System.out.println("When you are done generating items, type 'exit' to quit");
+        System.out.println("Type 'help' for more information\n");
         
         map = new HashMap<String, Table>();
         
@@ -25,8 +27,6 @@ public class MagicItemGen {
         generateItems();
         
         System.out.println("Thank you for using Chris' Magic Item Generator!");
-        System.out.println("When you are done generating items, type 'exit' to quit");
-        System.out.println("Type 'help' for more information\n");
     }
     
     public static Map getMap() {
