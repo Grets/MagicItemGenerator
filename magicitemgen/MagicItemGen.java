@@ -25,6 +25,8 @@ public class MagicItemGen {
         generateItems();
         
         System.out.println("Thank you for using Chris' Magic Item Generator!");
+        System.out.println("When you are done generating items, type 'exit' to quit");
+        System.out.println("Type 'help' for more information\n");
     }
     
     public static Map getMap() {
@@ -35,10 +37,10 @@ public class MagicItemGen {
         Scanner scan = new Scanner(System.in);
         String line="";
         
-        System.out.println("When you are done generating items, type 'exit' to quit");
-        System.out.println("Type 'help' for more information");
-        
-        commandReading: while(!(line = scan.nextLine()).equals("exit")) {
+        commandReading: while(!(line = scan.nextLine(System.out.print("$ ")).equals("exit")) {
+        	
+        	System.out.println("--------------------\n");
+        	
             int size=0;
             boolean autoRand = true;
   		    boolean runTable = true;
@@ -58,7 +60,6 @@ public class MagicItemGen {
                 } else if(input.equals("auto")) {
                     autoRand = true;
                 } else if(input.equals("help")) {
-                    System.out.println("--------------------\n");
                     System.out.println("Command listing:");
                     System.out.println("exit - quit the program");
                     System.out.println("help - get command listing");
@@ -73,16 +74,18 @@ public class MagicItemGen {
                     System.out.println("minor    (min)     - sets the item to be a minor; this is the default");
                     System.out.println("medium    (med)    - sets the item to be a medium");
                     System.out.println("major    (maj)     - sets the tiem to be a major");
+                    System.out.println();
                     
                     continue commandReading;
                 } else if(input.equals("list")) {
-                    System.out.println("--------------------\n");
                     Iterator it = map.entrySet().iterator();
                     
                     while(it.hasNext()) {
                         Map.Entry pairs = (Map.Entry)it.next();
                         System.out.println(pairs.getValue());
                     }
+                    
+                    System.out.println();
                     
                     continue commandReading;
                 } else if(input.equals("show")) {
@@ -97,11 +100,13 @@ public class MagicItemGen {
             if(runTable)
                 for(int i=0;i<count;i++) {
                 	if(count > 1) System.out.print((i+1)+". ");
-                    System.out.println("--------------------\n");
+                    if(i>0) System.out.println("--------------------\n");
                     map.get(table).runTable(size,autoRand);
                 }
-            else
+            else {
                     map.get(table).showTable();
+                    System.out.println();
+            }
         }
     }
     
