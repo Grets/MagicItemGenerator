@@ -33,11 +33,16 @@ public class MagicItemGen {
         return map;
     }
     
+    private static String readLine(Scanner scan) {
+        System.out.print("$ ");
+        return scan.nextLine();
+    }
+    
     private static void generateItems() {
         Scanner scan = new Scanner(System.in);
         String line="";
         
-        commandReading: while(!(line = scan.nextLine(System.out.print("$ ")).equals("exit")) {
+        commandReading: while(!(line = readLine(scan)).equals("exit")) {
         	
         	System.out.println("--------------------\n");
         	
