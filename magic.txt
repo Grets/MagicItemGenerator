@@ -1900,3 +1900,4 @@ d%	Item	Market Price
 99 Mirror of mental prowess 175,000 gp
 100 Mirror of life trapping 200,000 gp
 
+
